@@ -1,0 +1,88 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<BODY BACKGROUND ="{%static 'firstapp/2.png' %}"> </BODY>
+<div id="box5"> <FONT SIZE=20>
+<b>
+<div id="formm" ALIGN=justify >
+  <form name="formulaire" >
+   <center>
+    <table style="FONT-SIZE: 13px" cellspacing="1" cellpadding="3" width="580" border="0" >
+     <tbody>
+      <tr>
+       <td colspan="2"> <h1 style="FONT-SIZE: 18px"> Prendre RDV </h1></td></tr>
+	  <tr>
+	   <td colspan="2">
+	     <h2 style="FONT-SIZE: 20px">
+	      Vous pouvez prendre un RDV via notre site web, Pour cela veuillez remplir le formulaire ci-dessous et appuyer sur le bouton "Envoyer". Une confirmation vous sera adressée sous peu.
+	      Merci
+		 </h2>
+	   </td></tr>
+
+      <tr>
+       <td width="287">
+		<input class="sansb" type="radio" value="Mme" name="sex"> Mme
+		<input class="sansb" type="radio" value="Melle" name="sex"> Melle
+		<input class="sansb" type="radio" value="Mr" name="sex"> Mr
+	   </td>
+	  </tr>
+
+	  <tr>
+	   <td>Nom Complet:</td>
+       <td width="298"><input class="select" size="30" name="nom"><span style="COLOR: #ff0000">*</span></td></tr>
+	  <tr>
+<td>Pays : </td>
+<td><select class="select" id="pays" size="1" name="pays"> <option value="Tunisie" selected="">Tunisie</option> <option value="Afghanistan ">Afghanistan</option> <option value="Afrique central ">Afrique central</option> <option value="Afrique du Sud ">Afrique du Sud</option> <option value="Albanie ">Albanie</option> <option value="Algérie ">Algérie</option> <option value="Allemagne ">Allemagne</option> <option value="Andorre ">Andorre</option> <option value="Angleterre ">Angleterre</option> <option value="Angola ">Angola</option> <option value="Antigua-et-Barbuda ">Antigua-et-Barbuda</option> <option value="Arabie Saoudite ">Arabie Saoudite</option> <option value="Argentine ">Argentine</option> <option value="Armenie ">Armenie</option> <option value="Australie ">Australie</option> <option value="Autriche ">Autriche</option> <option value="Azerbaïdjan ">Azerbaïdjan</option> <option value="Bahamas ">Bahamas</option> <option value="Bahreïn ">Bahreïn</option> <option value="Bangladesh ">Bangladesh</option> <option value="Barbades ">Barbades</option> <option value="Belgique ">Belgique</option> <option value="Belize ">Belize</option> <option value="Bénin ">Bénin</option> <option value="Bhoutan ">Bhoutan</option> <option value="Biélorussie ">Biélorussie</option> <option value="Bolivie ">Bolivie</option> <option value="Bosnie-Herzégovine ">Bosnie-Herzégovine</option> <option value="Botswana ">Botswana</option> <option value="Brésil ">Brésil</option> <option value="Brunéi Darussalam ">Brunéi Darussalam</option> <option value="Bulgarie ">Bulgarie</option> <option value="Burkina-Faso ">Burkina-Faso</option> <option value="Burundi ">Burundi</option> <option value="Cambodge ">Cambodge</option> <option value="Cameroun ">Cameroun</option> <option value="Canada ">Canada</option> <option value="Cap-Vert ">Cap-Vert</option> <option value="Chili ">Chili</option> <option value="Chine ">Chine</option> <option value="Chypre ">Chypre</option> <option value="Colombie ">Colombie</option> <option value="Comores ">Comores</option> <option value="Congo ">Congo</option> <option value="Corée du Sud ">Corée du Sud</option> <option value="Costa Rica ">Costa Rica</option> <option value="Côte d'Ivoire ">Côte d'Ivoire</option> <option value="Croatie ">Croatie</option> <option value="Cuba ">Cuba</option> <option value="Danemark ">Danemark</option> <option value="Djibouti ">Djibouti</option> <option value="Egypte ">Egypte</option> <option value="Emirats arabes unis ">Emirats arabes unis</option> <option value="Equateur ">Equateur</option> <option value="Erythrée ">Erythrée</option> <option value="Espagne ">Espagne</option> <option value="Estonie ">Estonie</option> <option value="Ethiopie ">Ethiopie</option> <option value="Fidji ">Fidji</option> <option value="Finlande ">Finlande</option> <option value="France ">France</option> <option value="Gabon ">Gabon</option> <option value="Gambie ">Gambie</option> <option value="Ghana ">Ghana</option> <option value="Grèce ">Grèce</option> <option value="Grenade ">Grenade</option> <option value="Guadeloupe ">Guadeloupe</option> <option value="Guatemala ">Guatemala</option> <option value="Guinée-Bissau ">Guinée-Bissau</option> <option value="Guinée équatoriale ">Guinéeéquatoriale</option> <option value="Guyane ">Guyane</option> <option value="Haïti ">Haïti</option> <option value="Hollande ">Hollande</option> <option value="Honduras ">Honduras</option> <option value="Hongrie ">Hongrie</option> <option value="Ile Maurice ">Ile Maurice</option> <option value="Inde ">Inde</option> <option value="Indonésie ">Indonésie</option> <option value="Irak ">Irak</option> <option value="Iran ">Iran</option> <option value="Irlande ">Irlande</option> <option value="Islande ">Islande</option> <option value="Israël ">Israël</option> <option value="Italie ">Italie</option> <option value="Jamaique ">Jamaique</option> <option value="Japon ">Japon</option> <option value="Jordanie ">Jordanie</option> <option value="Kazakhstan ">Kazakhstan</option> <option value="Kenya ">Kenya</option> <option value="Koweït ">Koweït</option> <option value="Laos ">Laos</option> <option value="Lesotho ">Lesotho</option> <option value="Liban ">Liban</option> <option value="Libéria ">Libéria</option> <option value="Libye ">Libye</option> <option value="Lituanie ">Lituanie</option> <option value="Luxembourg ">Luxembourg</option> <option value="Madagascar ">Madagascar</option> <option value="Malaisie ">Malaisie</option> <option value="Malawi ">Malawi</option> <option value="Mali ">Mali</option> <option value="Malte ">Malte</option> <option value="Maroc ">Maroc</option> <option value="Martinique ">Martinique</option> <option value="Mauritanie ">Mauritanie</option> <option value="Mexique ">Mexique</option> <option value="md">Moldavie</option> <option value="Monaco ">Monaco</option> <option value="Mongolie ">Mongolie</option> <option value="Mozambique ">Mozambique</option> <option value="Myanmar ">Myanmar</option> <option value="Namibie ">Namibie</option> <option value="Nicaragua ">Nicaragua</option> <option value="Niger ">Niger</option> <option value="Norvège ">Norvège</option> <option value="Nouvelle Calédonie ">Nouvelle Calédonie</option> <option value="Nouvelle Zéland ">Nouvelle Zéland</option> <option value="Pakistan ">Pakistan</option> <option value="Panama ">Panama</option> <option value="Papouasie - Nouvelle Guinée ">Papouasie - Nouvelle Guinée</option> <option value="Paraguay ">Paraguay</option> <option value="Pérou ">Pérou</option> <option value="Philippines ">Philippines</option> <option value="Pologne ">Pologne</option> <option value="Porto Rico ">Porto Rico</option> <option value="Portugal ">Portugal</option> <option value="Qatar ">Qatar</option> <option value="République Dominicaine ">République Dominicaine</option> <option value="Roumanie ">Roumanie</option> <option value="Russie ">Russie</option> <option value="Rwanda ">Rwanda</option> <option value="Salvador ">Salvador</option> <option value="Sao Tomé-et-Principe ">Sao Tomé-et-Principe</option> <option value="Sénégal ">Sénégal</option> <option value="Sierra Leone ">Sierra Leone</option> <option value="Singapoure ">Singapoure</option> <option value="Slovénie ">Slovénie</option> <option value="Soudan ">Soudan</option> <option value="Sri Lanka ">Sri Lanka</option> <option value="Suède ">Suède</option> <option value="Suisse ">Suisse</option> <option value="Surinam ">Surinam</option> <option value="Swaziland ">Swaziland</option> <option value="Syrie ">Syrie</option> <option value="Tadjikistan ">Tadjikistan</option> <option value="Taiwan ">Taiwan</option> <option value="Tanzanie ">Tanzanie</option> <option value="Tchad ">Tchad</option> <option value="Tchéquie ">Tchéquie</option> <option value="Thaïlande ">Thaïlande</option> <option value="Togo ">Togo</option> <option value="Trinité et Tobago ">Trinité et Tobago</option> <option value="Tunisie ">Tunisie</option> <option value="Turkménistan ">Turkménistan</option> <option value="Turquie ">Turquie</option> <option value="Ukraine ">Ukraine</option> <option value="Uruguay ">Uruguay</option> <option value="USA ">USA</option> <option value="Uzbekistan ">Uzbekistan</option> <option value="Vénézuela ">Vénézuela</option> <option value="Vietnam ">Vietnam</option> <option value="Yémen ">Yémen</option> <option value="Yougoslavie ">Yougoslavie</option> <option value="Zambie ">Zambie</option> <option value="Zimbabwe ">Zimbabwe</option></select></td></tr>
+<tr>
+<td>Comment souhaitez-vous être contacté ?</td>
+<td><input class="sansb" type="radio" checked="" value="mail" name="contact"> Mail <input class="sansb" type="radio" value="tel" name="contact"> Tel</td></tr>
+<tr>
+<td>Mail</td>
+<td><input type="email" class="select" size="30px" name="mail"><span style="COLOR: #ff0000">*</span></td></tr>
+ <tr>
+<td>age</td>
+<td><input type="number" class="select" size="30px" name="age"><span style="COLOR: #ff0000">*</span></td></tr>
+<tr>
+<td>Tel</td>
+<td><input type="number" class="select" size="30" name="phone"></td></tr>
+<tr>
+<td>Vos disponibilités :</td>
+<td><select style="WIDTH: 43px" size="1" name="heure"> <option value="7">7</option> <option value="8">8</option> <option value="9">9</option> <option value="10" selected="">10</option> <option value="11">11</option> <option value="12">12</option> <option value="13">13</option> <option value="14">14</option> <option value="15">15</option> <option value="16">16</option> <option value="17">17</option> <option value="18">18</option> <option value="19">19</option> <option value="20">20</option></select>&nbsp;H &nbsp;<select size="1" name="minute"> <option value="00" selected="">00</option> <option value="05">05</option> <option value="10">10</option> <option value="15">15</option> <option value="20">20</option> <option value="25">25</option> <option value="30">30</option> <option value="35">35</option> <option value="40">40</option> <option value="45">45</option> <option value="50">50</option> <option value="55">55</option></select>&nbsp;MN <br>
+<span><label for="jour">jour</label><span id="calendar_2_2"><span><input class="element text" id="element_2_3" maxlength="4" size="4" name="jour">
+<span><label for="mois">/ Mois</label> </span>
+<span><input class="element text" id="element_2_1" maxlength="2" size="2" name="mois"> / <label for="année">année </label>  </span></span>
+<span id="calendar_2"><span><input class="element text" id="element_2_3" maxlength="4" size="4" name="année">
+ </span></span>
+<script type="text/javascript">
+			Calendar.setup({
+			inputField	 : "element_2_3",
+			baseField    : "element_2",
+			displayArea  : "calendar_2",
+			button		 : "cal_img_2",
+			ifFormat	 : "%B %e, %Y",
+			onSelect	 : selectDate
+			});
+		</script>
+</td></tr>
+<tr>
+<td>Traitement que vous souhaitez effectuer :</td>
+<td><select class="select" name="traitement"> <option value="consultation ">consultation</option> <option value="controle1 ">contrôle</option></select> </td></tr>
+<tr>
+<td>Commentaires :</td>
+<td><textarea class="select" name="message"></textarea></td></tr>
+</tbody> <center> </table>  <br> <br> <br> <br>
+<div><span><button > envoyer</button> </span> <span><button> annuler</button> </span> </div>
+</form>
+</div>
+</b>
+</FONT>
+</div>
+
+<body>
+</html>
